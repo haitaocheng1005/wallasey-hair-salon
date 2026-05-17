@@ -1,0 +1,13 @@
+.next/
+.tools/
+node_modules/
+out/
+build/
+dist/
+tsconfig.tsbuildinfo
+.next-dev.log
+.next-dev.err
+.env*
+!.env.example
+.DS_Store
+*.log

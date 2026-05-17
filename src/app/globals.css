@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-salon-black: #111111;
+  --color-salon-charcoal: #1e1e1e;
+  --color-salon-pink: #f7d6df;
+  --color-salon-rose: #d98ca3;
+  --color-salon-white: #ffffff;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #111111;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(17, 17, 17, 0.96) 0%, rgba(30, 30, 30, 0.98) 42%, #111111 100%),
+    #111111;
+  color: #ffffff;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #f7d6df;
+  color: #111111;
+}
+
+.font-display {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.container-shell {
+  width: min(100% - 2rem, 1180px);
+  margin-inline: auto;
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 3px rgba(247, 214, 223, 0.62);
+}
+
+.image-lift {
+  transition:
+    transform 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.image-lift:hover {
+  transform: translateY(-4px);
+  border-color: rgba(247, 214, 223, 0.58);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+}
