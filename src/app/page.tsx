@@ -36,7 +36,7 @@ export default function HomePage() {
               Fashion Hair Salon near Liverpool
             </p>
             <h1 className="font-display mt-4 text-5xl font-semibold leading-[1.02] text-white sm:text-6xl lg:text-7xl">
-              Whitesea Hair Salon
+              Whitesea Salon
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-8 text-white/80 sm:text-lg">
               Welcome to our hair salon in Wallasey. We are an experienced local
@@ -92,8 +92,8 @@ export default function HomePage() {
           </div>
           <div>
             <SectionHeader
-              eyebrow="About Whitesea"
-              title="Modern hair care with a friendly local touch."
+              eyebrow="About Whitesea salon"
+              title="Experienced hair care in the heart of Wallasey"
               description="Whether you are looking for a fresh haircut, a new colour, a stylish finish, or expert hair care advice, our team is here to help you feel confident and beautiful."
             />
             <p className="mt-5 text-base leading-8 text-white/70">
@@ -113,7 +113,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeader
               eyebrow="Our services"
-              title="Haircuts, colour, styling, treatments and consultation."
+              title="Haircuts, colour, styling & treatments"
             />
             <ButtonLink href="/services" variant="ghost" className="sm:mb-1">
               View All Services <Icon name="arrow-right" size={17} aria-hidden="true" />

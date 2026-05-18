@@ -13,7 +13,7 @@ export function SectionHeader({
 }: SectionHeaderProps) {
   return (
     <div
-      className={`max-w-3xl ${
+      className={`max-w-6xl ${
         align === "center" ? "mx-auto text-center" : ""
       }`}
     >
@@ -22,7 +22,7 @@ export function SectionHeader({
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+      <h2 className="font-display text-2xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
         {title}
       </h2>
       {description ? (
