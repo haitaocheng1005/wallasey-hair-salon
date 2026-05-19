@@ -32,7 +32,7 @@ export const services = [
       "Professional haircut services tailored to your face shape, lifestyle, and personal style.",
     image: "/salon/haircut-service.webp",
     icon: "scissors" satisfies IconName,
-    price: "from GBP 45",
+    price: "from £ 45",
   },
   {
     title: "Hair Colour",
@@ -40,7 +40,7 @@ export const services = [
       "Modern colouring services including full colour, highlights, roots, and tone refresh.",
     image: "/salon/colour-service.webp",
     icon: "palette" satisfies IconName,
-    price: "from GBP 70",
+    price: "from £ 70",
   },
   {
     title: "Hair Styling",
@@ -48,7 +48,7 @@ export const services = [
       "Elegant styling for everyday looks, special occasions, parties, and events.",
     image: "/salon/styling-service.webp",
     icon: "waves" satisfies IconName,
-    price: "from GBP 35",
+    price: "from £ 35",
   },
   {
     title: "Hair Treatment",
@@ -56,8 +56,16 @@ export const services = [
       "Nourishing hair treatments designed to improve shine, softness, and hair condition.",
     image: "/salon/luxury-portrait.webp",
     icon: "sparkles" satisfies IconName,
-    price: "from GBP 35",
+    price: "from £ 35",
   },
+{
+  title: "Root Touch-Up",
+  description:
+    "A colour refresh service for root regrowth, helping maintain a clean, polished, and natural-looking finish.",
+  image: "/salon/colour-service-2.webp",
+  icon: "palette" satisfies IconName,
+  price: "from £45",
+},
   {
     title: "Consultation",
     description:
@@ -72,26 +80,26 @@ export const priceGuide = [
   {
     category: "Cuts & Styling",
     items: [
-      { label: "Ladies Haircut", price: "GBP 45-65" },
-      { label: "Blow Dry", price: "GBP 30-45" },
-      { label: "Occasion Styling", price: "GBP 50-80" },
+      { label: "Ladies Haircut", price: "£ 45-65" },
+      { label: "Blow Dry", price: "£ 30-45" },
+      { label: "Occasion Styling", price: "£ 50-80" },
     ],
   },
   {
     category: "Colour",
     items: [
-      { label: "Full Colour", price: "GBP 70-120" },
-      { label: "Highlights", price: "GBP 80-150" },
-      { label: "Balayage", price: "GBP 95-180" },
-      { label: "Root Refresh", price: "GBP 45-70" },
+      { label: "Full Colour", price: "£ 70-120" },
+      { label: "Highlights", price: "£ 80-150" },
+      { label: "Balayage", price: "£ 95-180" },
+      { label: "Root Refresh", price: "£ 45-70" },
     ],
   },
   {
     category: "Treatments",
     items: [
-      { label: "Conditioning Treatment", price: "GBP 35-60" },
-      { label: "Keratin Treatment", price: "GBP 120-200" },
-      { label: "Colour Care Add-on", price: "GBP 20-35" },
+      { label: "Conditioning Treatment", price: "£ 35-60" },
+      { label: "Keratin Treatment", price: "£ 120-200" },
+      { label: "Colour Care Add-on", price: "£ 20-35" },
     ],
   },
 ];
